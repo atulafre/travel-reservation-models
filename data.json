@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Standard Queen",
-      "availability": 4
+      "availability": 5
     },
     {
       "id": 2,
@@ -18,13 +18,6 @@
       "guestName": "John Doe",
       "checkIn": "2025-05-01",
       "checkOut": "2025-05-05"
-    },
-    {
-      "id": "404b648d-4c5c-4c07-ab9e-1f8d14fe2ef6",
-      "roomId": 1,
-      "guestName": "Atul Afre",
-      "checkIn": "2025-07-21",
-      "checkOut": "2025-07-22"
     }
   ]
 }

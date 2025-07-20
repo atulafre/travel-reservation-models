@@ -149,6 +149,9 @@ The application uses a `data.json` file to store information about hotel rooms a
 }
 ```
 
+## How to run locally
+## /Users/atulafre/Documents/GitHub/trav-reservation-models/.venv/bin/python app.py
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.

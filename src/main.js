@@ -60,6 +60,19 @@ const app = Vue.createApp({
       } catch (e) {
         this.error = 'Network error.';
       }
+    },
+
+    /**
+     * Sorts an array of integers in ascending order and logs the result to the console.
+     * @param {number[]} arr - The array of integers to sort.
+     */
+    sortAndDisplay(arr) {
+      if (!Array.isArray(arr)) {
+        console.error('Input is not an array.');
+        return;
+      }
+      const sorted = [...arr].sort((a, b) => a - b);
+      console.log('Sorted array:', sorted);
     }
   },
   mounted() {
